@@ -11,7 +11,7 @@
 }
 
 .symbol, a.symbol:before {
-    font-family: 'Mono Social Icons Font';
+    font-family: 'dejavu_sansextralight';
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
@@ -31,7 +31,7 @@ a.symbol:before {
 }
 
 body {
-	font-family:sofiapro, sans-serif;
+	font-family: dejavu_sansextralight, sans-serif;
 	font-weight: bold;
 	font-size: 18px;
 }
