@@ -25,7 +25,6 @@ github_username:  munij-dev
 # Build settings
 markdown: kramdown
 permalink: pretty
-theme: minima
 plugins:
   - jekyll-feed
 
