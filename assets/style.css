@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'dejavu_sansextralight';
-    src: url('DejaVuSans-ExtraLight-webfont.eot');
-    src: url('DejaVuSans-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DejaVuSans-ExtraLight-webfont.woff2') format('woff2'),
-         url('DejaVuSans-ExtraLight-webfont.woff') format('woff'),
-         url('DejaVuSans-ExtraLight-webfont.ttf') format('truetype'),
-         url('DejaVuSans-ExtraLight-webfont.svg#dejavu_sansextralight') format('svg');
+    src: url('/assets/dejavusans_extralight_ubasic/DejaVuSans-ExtraLight-webfont.woff') format('woff'),
+         url('/assets/dejavusans_extralight_ubasic/DejaVuSans-ExtraLight-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +27,7 @@ a.symbol:before {
 }
 
 body {
-	font-family: dejavu_sansextralight, sans-serif;
+	font-family: 'dejavu_sansextralight', sans-serif;
 	font-weight: bold;
 	font-size: 18px;
 }
