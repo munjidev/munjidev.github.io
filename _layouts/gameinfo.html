@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<head>
+  <link rel="stylesheet" href="{{ "/assets/gameinfo.css" | relative_url }}">
+</head>
+
+<div id="content" class="bg-light">
+  <span id="navarrow" style="opacity: 0%; margin-left: -16px;"><i class="fa fa-angle-left"></i></span>
+  <span id="page-name" class="font50px text-dark bg-medium shadow-dark dejavu_sansextralight"><a href="{{ "/games/" | relative_url }}">{{ page.title | escape }}</a></span>
+  <span id="link-panel" style="margin-left: 545px" class="font50px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include sociallinks.html %}</span>
+
+  <div id="game-info" class="text-dark {{ page.infoclass }}">
+    <div id="game-pic-wrapper">
+      <a href="{{ page.link }}">
+        <img class="game-pic shadow" src="{{ page.preview | relative_url }}"></img>
+      </a>
+    </div>
+    <table class="separator-left">
+      <tr>
+        <div>
+          <td class="info-item"><a href="{{ page.link }}">{{ page.fulltitle }}</a></td>
+        </div>
+      </tr>
+      <tr>
+        <div>
+          <td class="info-item">{{ page.releasedate }}</td>
+        </div>
+      </tr>
+      <tr>
+        <div>
+          <td class="info-item">{{ page.company }}</td>
+        </div>
+      </tr>
+    </table>
+
+    <div id="role">
+      <td class="info-item">{{ page.role }}</td>
+    </div>
+  </div>
+
+  <div id="game-desc">
+    {{ content }}
+  </div>
+</div>

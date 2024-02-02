@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{% include head.html %}
 
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
+<body class="bg-dark">
+	<div id="container">
+		<div id="shutter" class="text-light bg-dark">
+      {% if page.layout == 'splash' %}
+        <!-- <div id="logo"><img src="/assets/images/logo.png"></div> -->
+        <div id="splashlinks" class="font50px">
+          {% include social.html %}
+        </div>
+      {% else %}
+        <!-- <div id="logo_alternate"><a href="{{ "/" | relative_url }}"><img src="/assets/images/logo_alternate.png"></a></div> -->
+      {% endif %}
+        
+      {% include navlinks.html %}
+		</div>
+    {{content}}
+	</div>
 
   </body>
 

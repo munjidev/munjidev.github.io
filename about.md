@@ -1,18 +1,21 @@
 ---
-layout: page
-title: About
+layout: about
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<br/>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hi! I'm Juan Muniain, a software engineer and independent game developer from Mexico. My goal is to turn awesome game ideas into reality, and deliver amazing experiences.
+<br/>
+<br/>
+This site is a portfolio of the works I’ve contributed to and developed on my own, which includes personal projects, games and jam submissions. You can check out my github page where I host most of the works found here.
+<br/>
+<br/>
+With a background in Computer Science, Graphics, Videogames and 3D Animation, my primary skills are gameplay and shader programming with Unity (C#), as well as hard surface modeling, rigging, texturing and animation with Blender, Maya and 3ds Max. I also use Adobe programs primarily for texturing and UI design. I am also skilled in front-end programming with JavaScript, HTML, CSS, TypeScript, Ruby, Jekyll, and a bit of MySQL for back-end related things.
+<br/>
+<br/>
+I also co-founded my university's Game Development [club](https://www.instagram.com/gamedevs.csf/), which usually hosts game jams, seminars and other industry events.
+<br/>
+<br/>
+"munij" is the pseudonym I go by and what I publish my projects under, usually accompanied by the picture in the bottom left.

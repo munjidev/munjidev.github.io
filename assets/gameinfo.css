@@ -1,0 +1,45 @@
+#content {
+	height: 370px;
+}
+#page-name:hover {
+	color: #f8dfb1;
+}
+#page-name:hover ~ #navarrow {
+	color: #94c8ff;
+	opacity: 100%;
+}
+#navarrow {
+	size: 3px
+}
+#game-info {
+	margin: 40px 100px;
+	height: 200px;
+	font-size: 30px;
+	font-weight: normal;
+}
+#game-info table {
+	position: absolute;
+	margin-left: 340px;
+	margin-top: -205px;
+}
+#game-info img {
+	height: 200px;
+	width: 300px;
+}
+#game-info a:hover {
+	color: #94c8ff;
+}
+#game-pic-wrapper a:hover {
+	background-color: #94c8ff;
+}
+#role {
+	margin-left: 340px;
+	margin-top: -40px;
+	font-weight: bold;
+}
+.info-item {
+	padding: 10px;
+}
+#game-desc {
+	margin: 0px 100px;
+}
