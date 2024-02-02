@@ -61,9 +61,9 @@ nav a:hover {
 nav a .underline {
 
 }
-/*.dejavu_sansextralight {
+.dejavu_sansextralight {
 	font-family: dejavu_sansextralight, dejavu_sansextralight-webfont;
-}*/
+}
 .active {
 	/*color: #9999FF;*/
 	border-bottom: 5px solid #94c8ff;
