@@ -5,6 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .symbol, a.symbol:before {
     font-family: 'dejavu_sansextralight', sans-serif;
     -webkit-text-rendering: optimizeLegibility;
