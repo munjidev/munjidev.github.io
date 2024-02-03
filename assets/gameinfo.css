@@ -2,10 +2,10 @@
 	height: 370px;
 }
 #page-name:hover {
-	color: #f8dfb1;
+	color: #FFF8DE;
 }
 #page-name:hover ~ #navarrow {
-	color: #94c8ff;
+	color: #D6E8DB;
 	opacity: 100%;
 }
 #navarrow {
@@ -27,10 +27,10 @@
 	width: 300px;
 }
 #game-info a:hover {
-	color: #94c8ff;
+	color: #D6E8DB;
 }
 #game-pic-wrapper a:hover {
-	background-color: #94c8ff;
+	background-color: #D6E8DB;
 }
 #role {
 	margin-left: 340px;
