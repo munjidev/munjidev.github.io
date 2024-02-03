@@ -8,16 +8,16 @@
 		<div id="shutter" class="text-light bg-dark">
       {% if page.layout == 'splash' %}
         <!-- <div id="logo"><img src="/assets/images/logo.png"></div> -->
-        <div id="splashlinks" class="font50px">
+        <div id="splashlinks" class="font40px">
           {% include social.html %}
         </div>
-      <!-- {% else %} -->
+      {% else %}
         <!-- <div id="logo_alternate"><a href="{{ "/" | relative_url }}"><img src="/assets/images/logo_alternate.png"></a></div> -->
       {% endif %}
         
       {% include navlinks.html %}
 		</div>
-    {{content}}
+    {{ content }}
 	</div>
 
   </body>
