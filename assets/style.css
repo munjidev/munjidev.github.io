@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'dejavu_sansextralight';
-    src: url('/assets/dejavusans_extralight_ubasic/DejaVuSans-ExtraLight-webfont.woff') format('woff'),
-         url('/assets/dejavusans_extralight_ubasic/DejaVuSans-ExtraLight-webfont.ttf') format('truetype');
+    src: url("dejavusans/DejaVuSans-ExtraLight-webfont.woff") format('woff'),
+         url("dejavusans/DejaVuSans-ExtraLight-webfont.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 .symbol, a.symbol:before {
-    font-family: 'dejavu_sansextralight';
+    font-family: 'dejavu_sansextralight', sans-serif;
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
@@ -48,7 +48,7 @@ nav a {
 	moz-transition:.3s;
 	webkit-transition:.3s;
 	transition:.3s;
-	border-bottom: 0px solid #5c5987;
+	border-bottom: 0px solid #336ba7;
 }
 nav a:hover {
 	border-bottom: 5px solid #94c8ff;
@@ -68,7 +68,7 @@ nav a .underline {
 	color: #f8dfb1;
 }
 .text-dark {
-	color: #5c5863;
+	color: #336ba7;
 }
 .text-medium {
 	color: #94c8ff;
@@ -212,7 +212,7 @@ nav a .underline {
     transition:.3s;
 }
 #link-panel a:hover {
-    color: #b1f8d0;
+    color: #f8dfb1;
 }
 #footer {
 	position: relative;
