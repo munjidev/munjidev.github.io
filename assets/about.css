@@ -20,12 +20,12 @@ td a {
 #bio-text {
 	float:right;
 	width: 60%;
-	line-height: 130%;   
+	line-height: 180%;   
 	text-align: justify;
 }
 #bio-links {
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 18px;
 }
 #bio-links table {
 	margin-left: 12px;
