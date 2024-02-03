@@ -29,7 +29,7 @@ a.symbol:before {
 body {
 	font-family: 'dejavu_sansextralight', sans-serif;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 14px;
 }
 a {
 	text-decoration: none;
@@ -61,7 +61,6 @@ nav a .underline {
 	font-family: dejavu_sansextralight, dejavu_sansextralight-webfont;
 }
 .active {
-	/*color: #9999FF;*/
 	border-bottom: 5px solid #94c8ff;
 }
 .text-light {
@@ -77,11 +76,9 @@ nav a .underline {
 	background-color: #336ba7;
 }
 .bg-black {
-	/*background-color: #5c5863;*/
 	background-color: black;
 }
 .bg-light {
-	/*background-color: #b1f8d0;*/
 	background-color: #f8dfb1;
 }
 .bg-medium {
@@ -90,10 +87,7 @@ nav a .underline {
 .rounded {
 	border-radius: 10px;
 }
-.font46px {
-	font-size: 40px;
-}
-.font50px {
+.font40px {
 	font-size: 40px;
 }
 .shadow-dark {
@@ -109,12 +103,9 @@ nav a .underline {
 	border-left: 2px solid #94c8ff;
 }
 .contains-links a {
-	/*border-bottom: 1px solid #ff1f4c;
-	/*color: #ff1f4c;*/
 	text-decoration: underline;
 }
 .contains-links a:hover {
-	/*color: #5c5863;*/
 	color: #94c8ff;
 }
 .img-wrapper {
@@ -201,7 +192,6 @@ nav a .underline {
     width: auto;
     top: -7px;
     right: 40px;
-    /*margin-right: 40px;*/
     padding: 6px 10px;
 }
 #link-panel a {
