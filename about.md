@@ -9,7 +9,7 @@ permalink: /about/
 Hi! I'm Juan Muniain, a Software Engineer and Game Developer from Mexico City. My goal is to turn awesome game ideas into reality, and deliver unique experiences.
 <br/>
 <br/>
-This site is a portfolio which includes the works I’ve contributed to and developed on my own, which includes personal projects, animation and modeling reels, games and jam submissions. You can check out my github page where I host some of the works found here. "munij" is the pseudonym I go by and what I publish my projects under, usually accompanied by the picture in the bottom left.
+This site is a portfolio which includes the works I’ve contributed to or developed on my own, such as animation and modeling reels, games and jam submissions. You can check out my github page where I host some of the works found here. "munij" is the pseudonym I go by and what I publish my projects under, usually accompanied by the picture in the bottom left.
 <br/>
 <br/>
 My primary skills are in 3D animation and modeling with Maya and 3ds Max, as well as gameplay programming in Unity and Unreal Ungine (C#, C++). I also know about rigging, texturing and shading workflows with these tools.
