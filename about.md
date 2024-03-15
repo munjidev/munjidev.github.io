@@ -6,7 +6,7 @@ permalink: /about/
 
 <br/>
 
-Hi! I'm Juan Muniain, a Software Engineer, Game Developer and 3D Animator from Mexico City. My goal is to turn awesome game ideas into reality, and deliver unique experiences. I'm currently the Strategic and Creative Director at Burning Boats Studios, a small indie development company I co-founded with a group of highly skilled developers from my home country.
+Hi! I'm Juan Muniain, a Software Engineer, Game Developer and 3D Animator from Mexico City. I'm currently working as Strategic and Creative Director at Burning Boats Studios, a small indie development company I co-founded with a group of highly skilled developers from my home country.
 <br/>
 <br/>
 This site is a portfolio which includes the works I’ve contributed to or developed on my own, such as animation and modeling reels, games and jam submissions. "munij" is the pseudonym I go by and what I publish my projects under, usually accompanied by the picture in the bottom left.
