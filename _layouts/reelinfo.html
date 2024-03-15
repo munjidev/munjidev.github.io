@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<head>
+  <link rel="stylesheet" href="{{ "/assets/gameinfo.css" | relative_url }}">
+</head>
+
+<div id="content" class="bg-light">
+  <span id="navarrow" style="opacity: 0%; margin-left: -16px;"><i class="fa fa-angle-left"></i></span>
+  <span id="page-name" class="font40px text-dark bg-medium shadow-dark dejavu_sansextralight"><a href="{{ "/reels/" | relative_url }}">{{ page.title | escape }}</a></span>
+  <span id="link-panel" style="margin-left: 545px" class="font40px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include social.html %}</span>
+
+  <div id="game-info" class="text-dark {{ page.infoclass }}">
+    <div id="game-pic-wrapper">
+      {{ content }}
+    </div>
+    <table class="separator-left">
+      <tr>
+        <div>
+          <td class="info-item"><a href="{{ page.link }}">{{ page.fulltitle }}</a></td>
+        </div>
+      </tr>
+      <tr>
+        <div>
+          <td class="info-item">{{ page.releasedate }}</td>
+        </div>
+      </tr>
+      <tr>
+        <div>
+          <td class="info-item">{{ page.tools }}</td>
+        </div>
+      </tr>
+    </table>
+    
+  </div>
+
+  <div id="game-desc">
+    {{ page.desc }}
+  </div>
+</div>

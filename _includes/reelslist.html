@@ -1,0 +1,27 @@
+<div id="item-list" class="dejavu_sansextralight">
+    {%- for post in site.categories.old -%} 
+        {% assign odd = forloop.index | modulo: 2%}
+
+            {% if odd == 1%}
+                <div id="column-left"> 
+            {% else %}
+                <div id="column-right"> 
+            {% endif %}
+
+            <div class="item"><a href="{{ post.url | relative_url }}">
+            <div class="img-wrapper">
+                <img class="item-pic" src="{{ post.preview | relative_url }}"></img>
+            </div>
+
+            {% if odd == 1 %}
+                <div class="item-name text-dark shadow-dark">
+            {% else %}
+                <div class="item-name text-dark shadow-dark-left">
+            {% endif %}
+
+                <span class="item-title {{ post.titleclass }}">{{ post.title }}</span>
+            </div>
+            </a></div>
+        </div>
+    {%- endfor -%}
+</div>
