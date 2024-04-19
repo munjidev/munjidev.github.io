@@ -1,2 +1,2 @@
-# munij.com
+# munji.com
 My personal portfolio website.
