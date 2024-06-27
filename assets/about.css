@@ -34,12 +34,18 @@ td a {
 	text-wrap: balance;
 }
 #info-links {
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 	font-weight: 200;
 	font-size: 20px;
 }
 #info-links table {
 	margin-left: 12px;
+}
+#info-links table {
+	margin-left: 12px;
+}
+#info-links table tr {
+	margin-bottom: 2px;
 }
 #info-links-wide {
 	max-width: 60%;
