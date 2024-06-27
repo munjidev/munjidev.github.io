@@ -61,12 +61,24 @@
 .item-title {
 	font-size: 32px;
 }
+.font30px {
+	font-size: 30px;
+}
 .font28px {
+	font-size: 26px;
+}
+.font26px {
 	font-size: 26px;
 }
 .font24px {
 	font-size: 24px;
 }
-.font30px {
-	font-size: 30px;
+.font22px {
+	font-size: 22px;
+}
+.font20px {
+	font-size: 20px;
+}
+.font18px {
+	font-size: 18px;
 }
