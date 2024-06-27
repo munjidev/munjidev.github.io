@@ -3,7 +3,7 @@
 #page-name:hover {
 	color: #FFF8DE;
 }
-#page-name:hover ~ #navarrow {
+#page-name:hover + #navarrow {
 	opacity: 100%;
 }
 #navarrow {

@@ -26,12 +26,12 @@
 	transition: .28s;
 	transform: scale(1.02);
 }
-#column-left {
+.column-left {
 	width: auto;
 	float: left;
 	margin-left: 7%;		
 }
-#column-right {
+.column-right {
 	width: auto;
 	float: right;
 	margin-right: 7%;

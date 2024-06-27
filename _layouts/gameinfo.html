@@ -2,7 +2,7 @@
 layout: default
 ---
 <head>
-  <link rel="stylesheet" href="{{ "/assets/iteminfocss" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/iteminfo.css" | relative_url }}">
 </head>
 
 <div id="content" class="bg-light">
@@ -14,10 +14,10 @@ layout: default
   <span id="navarrow" style="opacity: 0%; margin-left: -16px;"><i class="fa fa-angle-left"></i></span>
   <span id="link-panel" style="margin-left: 545px" class="font40px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include links/social.html %}</span>
 
-  <div id="game-info" class="text-dark {{ page.infoclass }}">
-    <div id="game-pic-wrapper">
+  <div id="item-info" class="text-dark {{ page.infoclass }}">
+    <div id="item-pic-wrapper">
       <a href="{{ page.link }}">
-        <img class="game-pic shadow" src="{{ page.preview | relative_url }}"></img>
+        <img class="item-pic shadow" src="{{ page.preview | relative_url }}"></img>
       </a>
     </div>
     <table class="separator-left">
@@ -43,7 +43,7 @@ layout: default
     </div>
   </div>
 
-  <div id="game-desc">
+  <div id="item-desc">
     {{ content }}
   </div>
 </div>
