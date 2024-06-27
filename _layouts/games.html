@@ -8,10 +8,10 @@ layout: default
 <div id="content" class="bg-light">
   <span id="page-name" class="font40px text-dark bg-medium shadow-dark dejavu_sansextralight">{{ page.title | escape }}</span>
   <span id="link-panel" class="font40px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include links/social.html %}</span>
-  {{ content }}
+  {%- include gameslist.html loc=site.categories.games-%}
 </div>
 
 <div id="content" class="bg-light">
   <span id="page-name" class="font40px text-dark bg-medium shadow-dark dejavu_sansextralight">{{ "jams" | escape }}</span>
-  {%- include  gameslist.html -%}
+  {%- include gameslist.html loc=site.categories.jams-%}
 </div>
