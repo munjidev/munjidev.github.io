@@ -2,13 +2,17 @@
 layout: default
 ---
 <head>
-  <link rel="stylesheet" href="{{ "/assets/gameinfo.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/iteminfocss" | relative_url }}">
 </head>
 
 <div id="content" class="bg-light">
+  <span id="page-name" class="font40px text-dark bg-medium shadow-dark dejavu_sansextralight">
+    <a href="{{ "/games/" | relative_url }}">
+      {{ page.title | escape }}
+    </a>
+  </span>
   <span id="navarrow" style="opacity: 0%; margin-left: -16px;"><i class="fa fa-angle-left"></i></span>
-  <span id="page-name" class="font40px text-dark bg-medium shadow-dark dejavu_sansextralight"><a href="{{ "/games/" | relative_url }}">{{ page.title | escape }}</a></span>
-  <span id="link-panel" style="margin-left: 545px" class="font40px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include social.html %}</span>
+  <span id="link-panel" style="margin-left: 545px" class="font40px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include links/social.html %}</span>
 
   <div id="game-info" class="text-dark {{ page.infoclass }}">
     <div id="game-pic-wrapper">

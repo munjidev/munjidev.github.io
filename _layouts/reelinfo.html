@@ -2,16 +2,20 @@
 layout: default
 ---
 <head>
-  <link rel="stylesheet" href="{{ "/assets/gameinfo.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/iteminfo.css" | relative_url }}">
 </head>
 
 <div id="content" class="bg-light">
   <span id="navarrow" style="opacity: 0%; margin-left: -16px;"><i class="fa fa-angle-left"></i></span>
-  <span id="page-name" class="font40px text-dark bg-medium shadow-dark dejavu_sansextralight"><a href="{{ "/reels/" | relative_url }}">{{ page.title | escape }}</a></span>
-  <span id="link-panel" style="margin-left: 545px" class="font40px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include social.html %}</span>
+  <span id="page-name" class="font40px text-dark bg-medium shadow-dark dejavu_sansextralight">
+    <a href="{{ "/reels/" | relative_url }}">
+      {{ page.title | escape }}
+    </a>
+  </span>
+  <span id="link-panel" style="margin-left: 545px" class="font40px text-dark bg-medium shadow-dark-left dejavu_sansextralight">{% include links/social.html %}</span>
 
-  <div id="game-info" class="text-dark {{ page.infoclass }}">
-    <div id="game-pic-wrapper">
+  <div id="reel-info" class="text-dark {{ page.infoclass }}">
+    <div id="reel-pic-wrapper">
       {{ content }}
     </div>
     <table class="separator-left">
@@ -34,7 +38,7 @@ layout: default
     
   </div>
 
-  <div id="game-desc">
+  <div id="reel-desc">
     {{ page.desc }}
   </div>
 </div>

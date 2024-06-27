@@ -6,27 +6,51 @@ hr {
 td a {
 	margin-left: 5px;
 }
-#content {
-	height: 930px;
+#info-container {
+	height: 100%;
+	max-width: 100%;
+	margin: 40px 5% 5% 5%;
 }
-#bio-img {
+#info-pics {
 	float: left;
-}
-#bio-img img {
-	display: block;
 	width: 250px;
-	margin-bottom: 30px	
+	height: auto;
+	max-width: 30%;
+	padding-right: 10%;
+	padding-bottom: 2.5%
 }
-#bio-text {
-	float: right;
-	width: 60%;
-	line-height: 170%;   
+#info-pics img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	aspect-ratio: 1/1;
+	margin-bottom: 12.5%;
+}
+#info-text {
+	line-height: 130%;
 	text-align: justify;
+	text-wrap: balance;
 }
-#bio-links {
-	font-weight: bold;
-	font-size: 18px;
+#info-links {
+	margin-bottom: 25px;
+	font-weight: 200;
+	font-size: 20px;
 }
-#bio-links table {
+#info-links table {
 	margin-left: 12px;
+}
+#info-links-wide {
+	max-width: 60%;
+	margin-left: 40%;
+}
+#info-links-small {
+	display: none;
+}
+
+@media (max-width: 550px) {
+	#info-links-wide { display: none; }
+}
+@media (max-width: 550px) {
+	#info-links-compact { display: inherit; }
 }

@@ -5,28 +5,20 @@ layout: page
     <link rel="stylesheet" href="{{ "/assets/about.css" | relative_url }}">
 </head>
 
-<div id ="bio-container" class="content text-dark contains-links">
-    <div id="bio-img" class="width40">
+<div id ="info-container" class="content text-dark contains-links">
+    <div id="info-links-small">
+        {%- include links/info.html -%}
+    </div>
+
+    <div id="info-img" class="width40">
         <img id="personal_img" class="shadow-dark item" src="../assets/images/profileimg.jpeg"></img>
         <img id="socials_img" class="shadow-dark item" src="../assets/images/socialsimg.jpeg"></img>
     </div>
-    <div id="bio-text">
-        <div id="bio-links" class="separator-left">
-            <table>
-                <tr>
-                    <td>Email:</td><td><a href="mailto:muniainjuan@icloud.com">muniainjuan@icloud.com</a></td>
-                </tr>
-                <tr>
-                    <td>GitHub:</td><td><a href="http://www.github.com/munjidev">github.com/munjidev</a></td>
-                </tr>
-                <tr>
-                     <td>LinkedIn:</td><td><a href="http://www.linkedin.com/in/juan-muniain">in/juan-muniain</a></td>
-                </tr>
-                <tr>
-                    <td>Twitter:</td><td><a href="http://www.twitter.com/munjidev">@munjidev</a></td>
-                </tr>
-            </table>
-        </div>
+
+    <div id="info-links-wide">
+        {%- include links/info.html -%}
+    </div>
+    <div id="info-text">
         {{ content }}
     </div>
 </div>

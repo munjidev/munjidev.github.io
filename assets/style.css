@@ -27,15 +27,8 @@ a.symbol:before {
 body {
 	font-family: 'dejavu_sansextralight', sans-serif;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: 18px;
 }
-@media only screen and (min-width: 481px) {
-    body {
-      padding-top: 24px;
-      padding-right: 24px;
-      padding-left: 24px;
-    }
-  }
 a {
 	text-decoration: none;
 	color: inherit;
@@ -107,6 +100,9 @@ nav a:hover {
 .separator-left {
 	border-left: 2px solid #D6E8DB;
 }
+.separator-right {
+	border-right: 2px solid #D6E8DB;
+}
 .contains-links a {
 	text-decoration: underline;
 }
@@ -160,11 +156,11 @@ nav a:hover {
     right: 0;
     width: auto;
     font-size: 50px;
-    font-weight: 200;
+    font-weight: normal;
 
 }
 #navlinks {
-    position: absolute;
+    position: relative;
     top: 125px;
     left: 0;
     right: 0;
@@ -183,21 +179,28 @@ nav a:hover {
 }
 #content {
     position: relative;
-    margin: 50px auto;
+    margin: auto;
+    margin-top: 50px;
     height: auto;
+    padding-bottom: 20px;
     width: 900px;
+    max-width: 100%;
 }
 #page-name {
+    position: relative;
     width: auto;
-    margin-left: 40px;
-    padding: 6px 10px;
+    top: -2px;
+    margin-left: 5%;
+    padding: 0px 10px 4px;
+    font-size: clamp(24px, 5vw, 40px);
 }
 #link-panel {
     position: absolute;
     width: auto;
     top: -7px;
-    right: 40px;
+    right: 5%;
     padding: 6px 10px;
+    font-size: clamp(24px, 5vw, 40px);
 }
 #link-panel a {
     -o-transition:.3s;
