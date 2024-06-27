@@ -52,5 +52,5 @@ td a {
 	#info-links-wide { display: none; }
 }
 @media (max-width: 550px) {
-	#info-links-compact { display: inherit; }
+	#info-links-small { display: inherit; }
 }
