@@ -17,7 +17,7 @@ td a {
 	height: auto;
 	max-width: 30%;
 	padding-right: 10%;
-	padding-bottom: 2.5%
+	padding-top: 5%;
 }
 #info-pics img {
 	width: auto;
@@ -25,7 +25,7 @@ td a {
 	max-width: 100%;
 	max-height: 100%;
 	aspect-ratio: 1/1;
-	margin-bottom: 12.5%;
+	margin-bottom: 10%;
 }
 #info-text {
 	line-height: 130%;
@@ -43,6 +43,7 @@ td a {
 #info-links-wide {
 	max-width: 60%;
 	margin-left: 40%;
+	padding-top: 5%;
 }
 #info-links-small {
 	display: none;

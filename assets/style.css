@@ -52,9 +52,8 @@ nav a:hover {
 	border-bottom: 5px solid #D6E8DB;
 	color: #D6E8DB;
 }
-/* nav a .underline {
-
-} */
+nav a .underline {
+}
 .dejavu_sansextralight {
 	font-family: 'dejavu_sansextralight', 'dejavu_sansextralight-webfont';
 }
@@ -162,8 +161,8 @@ nav a:hover {
 #navlinks {
     position: relative;
     top: 125px;
-    left: 0;
-    right: 0;
+    left: auto;
+    right: auto;
 }
 #externallinks {
     position:absolute;
@@ -180,7 +179,7 @@ nav a:hover {
 #content {
     position: relative;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 70px;
     height: auto;
     padding-bottom: 20px;
     width: 900px;
