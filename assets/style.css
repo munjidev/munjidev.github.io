@@ -186,9 +186,9 @@ nav a .underline {
     max-width: 100%;
 }
 #page-name {
-    position: relative;
+    position: absolute;
     width: auto;
-    top: -2px;
+    top: -7px;
     margin-left: 5%;
     padding: 0px 10px 4px;
     font-size: clamp(24px, 5vw, 40px);
